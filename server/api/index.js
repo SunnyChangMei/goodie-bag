@@ -20,7 +20,7 @@ const router = require('express').Router();
 // error-handling endware!
 const Candy = require('../db/models/Candy');
 
-router.get('/', async (req, res, next) => {
+router.get('/candies', async (req, res, next) => {
   try {
     const candies = await Candy.findAll();
     res.status(200).json(candies);

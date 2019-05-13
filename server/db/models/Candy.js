@@ -26,6 +26,7 @@ module.exports = db.define('candy', {
   },
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: ''
+    defaultValue:
+      'https://images.unsplash.com/photo-1517683551739-7f3f08efba84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60'
   }
 });

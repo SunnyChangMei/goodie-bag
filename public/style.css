@@ -35,3 +35,13 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+.navlink {
+  color: pink;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navlink:hover, a {
+  text-decoration: none;
+}
